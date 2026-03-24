@@ -3,7 +3,7 @@ import streamlit as st
 st.title("Галерия от любими животни")
 # Списък със животни
 if "animals" not in st.session_state:
-st.session_state.animals = []
+   st.session_state.animals = []
 # Добавяне
 st.header("Добави ново животно")
 name = st.text_input("Име на животното")
