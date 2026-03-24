@@ -16,7 +16,7 @@ if st.button("Добави"):
 "описание": description,
 "картинка": image_url
       })
-  st.success(f"{name} е добавено!")
+          st.success(f"{name} е добавено!")
    else:
       st.warning("Попълнете всички полета!")
 ремахване
