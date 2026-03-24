@@ -10,7 +10,7 @@ name = st.text_input("Име на животното")
 description = st.text_area ("Описание")
 image_url = st.text_input("URL на картинка")
 if st.button("Добави"):
-if name and description and image_url:
+   if name and description and image_url:
 st.session_state.animals.append({
 "име": пате,
 "описание": description,
