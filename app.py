@@ -15,10 +15,10 @@ if st.button("Добави"):
 "име": пате,
 "описание": description,
 "картинка": image_url
-})
-st.success(f"{name} е добавено!")
-    else:
-   st.warning("Попълнете всички полета!")
+      })
+      st.success(f"{name} е добавено!")
+   else:
+      st.warning("Попълнете всички полета!")
 ремахване
 st.session_state.animals:
 st.header("Премахни животно")
@@ -41,3 +41,4 @@ st.subheader (animal ["име"])
 st.write(animal ["описание"])
 else:
 st.info("Галерията е празна. Добавете животни!")
+
