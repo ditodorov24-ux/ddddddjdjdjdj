@@ -17,8 +17,8 @@ if st.button("Добави"):
 "картинка": image_url
 })
 st.success(f"{name} е добавено!")
-  else:
-st.warning("Попълнете всички полета!")
+    else:
+   st.warning("Попълнете всички полета!")
 ремахване
 st.session_state.animals:
 st.header("Премахни животно")
